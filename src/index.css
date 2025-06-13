@@ -153,17 +153,19 @@ button:focus-visible {
 }
 
 .key {
-  min-width: 40px;
-  height: 58px;
+  padding: 1rem;
+  margin: 0.25rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  border: none;
-  background-color: #d3d6da;
-  font-weight: bold;
+  background-color: #a87272;
   cursor: pointer;
-  text-transform: uppercase;
-  color: var(--text-color);
-  font-size: 1.1rem;
-  transition: background-color 0.2s ease;
+}
+
+.key-enter {
+  flex: 2; /* Make the ENTER key wider */
+  background-color: #d4d4d4; /* Slightly different color for distinction */
+  font-weight: bold;
 }
 
 .key:hover {
