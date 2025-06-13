@@ -34,7 +34,7 @@ body {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
-  background-color: #f8f8f8;
+  background-color: #f5abab;
   color: var(--text-color);
 }
 
@@ -167,7 +167,7 @@ button:focus-visible {
 }
 
 .key:hover {
-  background-color: #c3c6ca;
+  background-color: #cc5b5b;
 }
 
 .key.correct {
@@ -177,7 +177,7 @@ button:focus-visible {
 
 .key.present {
   background-color: var(--present);
-  color: white;
+  color: rgb(200, 160, 160);
 }
 
 .key.absent {
